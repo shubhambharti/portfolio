@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Poppins&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Lato", sans-serif;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgba(0, 0, 0, 0.6) !important;
+    padding: 20px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    padding-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #1ebba3;
+}
+
+.heading-content {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.heading-content h5 {
+    font-size: 3em;
+    font-weight: 300;
+    color: #6a0909;
+    font-family: monospace;
+}
+
+.heading-content h1 {
+    font-size: 4em;
+    font-weight: bolder;
+    color: #6a0909;
+    font-family: "montserrat", sans-serif;
+}
+
+.heading-content p {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #6a0909c6;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+}
+.background .img-fluid{
+    height: 600px !important;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* --------------------------About Start-------------------------- */
+#about .btn {
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#about .btn a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about .btn:hover {
+    border: 2px solid #1ebba3;
+    cursor: pointer;
+}
+
+.abt_img {
+    max-width: 80%;
+}
+
+/* ---------------------------Service Start------------------------ */
+#service .button {
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#service .button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#service .button:hover {
+    border: 2px solid #1ebba3;
+    cursor: pointer;
+}
+/* ---------------------------Newsletter Start------------------------ */
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #edf9ffce;
+}
+.sec1 h2{
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+.sec2{
+    display: flex;
+}
+.card img{
+    height: 220px;
+}
