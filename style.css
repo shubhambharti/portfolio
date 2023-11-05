@@ -112,6 +112,11 @@ body {
     border: 2px solid #1ebba3;
     cursor: pointer;
 }
+.card-img-top{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+}
 /* ---------------------------Newsletter Start------------------------ */
 .sec1{
     display: flex;
