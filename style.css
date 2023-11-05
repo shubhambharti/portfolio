@@ -37,14 +37,14 @@ body {
 .heading-content h5 {
     font-size: 3em;
     font-weight: 300;
-    color: #6a0909;
+    color: #f1ce06;
     font-family: monospace;
 }
 
 .heading-content h1 {
     font-size: 4em;
     font-weight: bolder;
-    color: #fff;
+    color: #f1ce06;
     font-family: "montserrat", sans-serif;
 }
 
@@ -52,7 +52,7 @@ body {
     font-size: 1em;
     text-transform: uppercase;
     font-weight: lighter;
-    color: #fff;
+    color: #f1ce06;
     word-spacing: 5px;
     letter-spacing: 2px;
     font-family: "Montserrat", sans-serif;
