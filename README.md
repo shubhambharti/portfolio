@@ -1,5 +1,9 @@
 # portfolio.github.io
 
 
-Redirect using ths link👇👇
+Redirect using this link👇👇
+https://shubhambhartiportfolio.netlify.app/
+
 https://shubhambharti.github.io/portfolio/
+
+
